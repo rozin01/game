@@ -33,7 +33,8 @@ function on(){
   su -c pm hide com.bukalapak.android >/dev/null 2>/dev/null
   su -c pm hide id.dana >/dev/null 2>/dev/null
   su -c pm hide com.google.android.gm >/dev/null 2>/dev/null
-  su -c pm hide com.instagram.android >/dev/null 2>/dev/null
+
+
   su -c pm hide com.nexstreaming.app.kinemasterfree >/dev/null 2>/dev/null
   su -c pm hide id.co.komiku >/dev/null 2>/dev/null
   su -c pm hide com.facebook.lite >/dev/null 2>/dev/null
@@ -45,10 +46,10 @@ function on(){
   su -c pm hide org.proxydroid >/dev/null 2>/dev/null
   su -c pm hide org.thunderdog.challegram >/dev/null 2>/dev/null
   su -c pm hide org.videolan.vlc >/dev/null 2>/dev/null
-  su -c pm hide com.whatsapp >/dev/null 2>/dev/null
+
   su -c pm hide com.google.android.youtube >/dev/null 2>/dev/null
   su -c pm hide ru.zdevs.zarchiver >/dev/null 2>/dev/null
-  su -c pm hide com.facebook.katana >/dev/null 2>/dev/null
+  su -c pm hide com.facebook.katana >/dev/null 2>/idev/null
   su -c pm hide com.facebook.orca >/dev/null 2>/dev/null
   su -c pm hide com.facebook.mlite >/dev/null 2>/dev/null
   su -c pm hide com.ss.android.ugc.trill >/dev/null 2>/dev/null
@@ -110,7 +111,7 @@ function off(){
   su -c pm unhide com.bukalapak.android >/dev/null 2>/dev/null
   su -c pm unhide id.dana >/dev/null 2>/dev/null
   su -c pm unhide com.google.android.gm >/dev/null 2>/dev/null
-  su -c pm unhide com.instagram.android >/dev/null 2>/dev/null
+
   su -c pm unhide com.nexstreaming.app.kinemasterfree >/dev/null 2>/dev/null
   su -c pm unhide id.co.komiku >/dev/null 2>/dev/null
   su -c pm unhide com.facebook.lite >/dev/null 2>/dev/null
@@ -122,7 +123,7 @@ function off(){
   su -c pm unhide org.proxydroid >/dev/null 2>/dev/null
   su -c pm unhide org.thunderdog.challegram >/dev/null 2>/dev/null
   su -c pm unhide org.videolan.vlc >/dev/null 2>/dev/null
-  su -c pm unhide com.whatsapp >/dev/null 2>/dev/null
+
   su -c pm unhide com.google.android.youtube >/dev/null 2>/dev/null
   su -c pm unhide ru.zdevs.zarchiver >/dev/null 2>/dev/null
   su -c pm unhide com.facebook.katana >/dev/null 2>/dev/null
